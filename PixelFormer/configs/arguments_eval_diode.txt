@@ -1,0 +1,14 @@
+--model_name pixelformer_kittieigen
+--encoder large07
+--dataset diode
+--input_height 480
+--input_width 640
+--max_depth 100
+
+--data_path_eval ../depth_data/KITTI_filtered/eigen_test/
+--gt_path_eval ../depth_data/KITTI/
+--filenames_file_eval ../depth_data/eigen_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 100
+
+--checkpoint_path ckpts/kitti.pth

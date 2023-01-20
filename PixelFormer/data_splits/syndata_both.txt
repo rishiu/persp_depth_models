@@ -1,0 +1,5 @@
+/usr/project/gen_data/generated_data/LATEST_FINAL_OUT/FT/
+/usr/project/gen_data/generated_data/EXTRA_OUT_SYNTHIA/FT/
+/usr/project/gen_data/generated_data/SYNTHIA_EXTRA_PT2/FT/
+/usr/project/gen_data/generated_data/vKITTI_FT/
+/usr/project/gen_data/generated_data/vKITTI_FT_v2/full_FT/FT/
