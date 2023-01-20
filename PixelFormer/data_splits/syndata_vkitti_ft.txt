@@ -1,0 +1,2 @@
+/usr/project/gen_data/generated_data/vKITTI/BASE/
+/usr/project/gen_data/generated_data/vKITTI_v2/BASE/

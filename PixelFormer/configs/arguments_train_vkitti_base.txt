@@ -1,5 +1,5 @@
 --mode train
---model_name pixelformer_both
+--model_name pixelformer_vkitti_base
 --encoder large07
 --pretrain ckpts/swin_large_patch4_window7_224_22k.pth
 --checkpoint_path ckpts/kitti.pth
@@ -7,7 +7,7 @@
 --data_path ./
 --gt_path ./
 --filenames_file ./
---data_file data_splits/syndata_both_ft.txt
+--data_file data_splits/syndata_vkitti_base.txt
 --batch_size 8
 --num_epochs 20
 --learning_rate 4e-6
@@ -20,10 +20,11 @@
 --degree 1.0
 --log_directory ./models/
 --multiprocessing_distributed
---dist_url tcp://127.0.0.1:1237
+--dist_url tcp://127.0.0.1:1234
 
 --log_freq 100
---eval_freq 1000
+--do_online_eval
+--eval_freq 100
 --data_path_eval dataset/KITTI
 --gt_path_eval kitti_gt
 --filenames_file_eval data_splits/eigen_test_files_with_gt.txt

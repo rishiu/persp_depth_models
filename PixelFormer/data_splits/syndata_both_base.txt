@@ -1,0 +1,5 @@
+/usr/project/gen_data/generated_data/CURRENT_FINAL_OUT/BASE/
+/usr/project/gen_data/generated_data/EXTRA_OUT_SYNTHIA/BASE/
+/usr/project/gen_data/generated_data/SYNTHIA_EXTRA_PT2/BASE/
+/usr/project/gen_data/generated_data/vKITTI/BASE/
+/usr/project/gen_data/generated_data/vKITTI_v2/BASE/
